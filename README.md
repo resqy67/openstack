@@ -25,4 +25,4 @@ heat-hostname-XX
 $ exit
 logout
 ==== ketika sudah keluar dari instancenya
-<kolla-env> resqyhedy@podXX-controller:
+<kolla-env> resqyhedy@podXX-controller:..
