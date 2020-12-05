@@ -1,0 +1,15 @@
+parameters:
+ demo_net_name: heat-network-01
+ demo_net_cidr: 172.28.1.0/24
+ demo_net_gateway: 172.28.1.1
+ demo_net_pool_start: 172.28.1.100
+ demo_net_pool_end: 172.28.1.254
+ demo_subnet_name: heat-subnet-01
+ demo_ext_net_name: external-net-01
+ demo_sg_name: heat-sg-01
+ demo_key_name: heat-key-01
+ demo_public_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDK8zjMUssZcZHTJOJJMay4kMALJOujgHJtVKL/RjXoFh725aEN/fe6T/1GnX8eXYvho2FsWooL4yOunVyXxqU8PniU85GP4Y6a8Z047cmFq7dPOMcxpn5fy/Up1TSTqj4bRGh61I4PxeJLlp4KwivSGk0luiEtPJ+wEPDawOea/9mQZ9+A6rh0jXvjbq6oCbAn1KCSDw08jyD8NyLB/PBczW4fgpvHVuVXwTqQRZFiyI3eXBRKMCaZ9HXZmEGrkdI1V0ScWiPacmXeAWbpzkUkAkUj5SPfxLtnhUan1QHIXrmVTtjC4O62/Op8hZ2L7EA6Cho4WJQZlyqhpIcKzZVx resqyhedy@pod01-controller
+ demo_image_name: cirros-01
+ demo_flavor_name: heat-flavor-01
+ demo_server1_name: heat-instance-01
+ demo_router_name: heat-router-01 
